@@ -9,7 +9,7 @@ type Query struct {
 	Text string
 }
 
-type IF interface {
+type IQuery interface {
 	Select()
 }
 
