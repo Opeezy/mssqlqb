@@ -38,10 +38,3 @@ func (q *Query) Select(columns []string) error {
 	q.Text = qt.String()
 	return nil
 }
-
-// func Select(columns []string, query *Query) {
-// 	for _, value := range columns {
-// 		qt.WriteString(value + ", ")
-// 	}
-// 	fmt.Print(qt.String())
-// }
